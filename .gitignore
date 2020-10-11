@@ -1,0 +1,34 @@
+HELP.md
+
+conversormoeda-registry-api/target/
+!conversormoeda-registry-api/.mvn/wrapper/maven-wrapper.jar
+!conversormoeda-registry-api/**/src/main/**
+!conversormoeda-registry-api/**/src/test/**
+
+conversormoeda-registry-frontend/node_modules/
+
+### STS ###
+conversormoeda/.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/

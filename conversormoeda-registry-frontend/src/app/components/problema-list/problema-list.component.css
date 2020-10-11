@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+}
+
+.col-titulo {
+    width: 22%;
+}
+
+.col-status {
+    width: 8%;
+}
+
+.info {
+    margin-right: 10px;
+}
+
+.info > i  {
+    color: #D9CD26;
+}
+
+.deletar > i {
+    color: #E35E6B;
+}
