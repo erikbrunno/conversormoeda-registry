@@ -31,7 +31,7 @@ public class RastreamentoProblemaController {
 		RastreamentoProblemaModel rastreamentoProblemaModel = rastreamentoProblemaModelAssembler
 				.toModel(problema.getRastreamento());
 
-		return ResponseEntity.ok().cacheControl(CacheControl.maxAge(10, TimeUnit.SECONDS))
+		return ResponseEntity.ok().cacheControl(CacheControl.maxAge(30, TimeUnit.MINUTES))
 				.body(rastreamentoProblemaModel);
 	}
 }

@@ -56,7 +56,7 @@ public class ProblemaController {
 		List<ProblemaModel> problemasModel = problemaModelAssembler.toCollectionModel(todosProblemas);
 
 		return ResponseEntity.ok()
-				.cacheControl(CacheControl.maxAge(10, TimeUnit.SECONDS))
+				.cacheControl(CacheControl.maxAge(30, TimeUnit.MINUTES))
 				.eTag(eTag)
 				.body(problemasModel);
 	}
