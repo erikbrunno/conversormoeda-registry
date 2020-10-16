@@ -13,6 +13,8 @@ create table problema (
 	titulo varchar(256) not null,
 	detalhe varchar(256) not null,
 	rastreamento_id bigint not null,
+    data_hora timestamp not null,
+    data_hora_cadastro timestamp not null default current_timestamp,
 
 	primary key(id),
 	constraint fk_rastreamento_problema_problema foreign key (rastreamento_id) references rastreamento_problema (id)
